@@ -5147,14 +5147,9 @@
 	},
 /area/f13/bunker)
 "cLR" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
-/obj/machinery/porta_turret/syndicate{
-	faction = list("china")
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/caves)
+/obj/machinery/vending/autodrobe,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/enclave)
 "cLS" = (
 /obj/structure/rack,
 /obj/machinery/light/small{
@@ -9516,6 +9511,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/caves)
+"fdH" = (
+/obj/machinery/vending/clothing,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/enclave)
 "fdI" = (
 /obj/effect/decal/cleanable/blood/gibs/down{
 	icon_state = "gibleg"
@@ -36369,6 +36368,15 @@
 	},
 /turf/open/floor/wood/f13/stage_t,
 /area/f13/brotherhood/operations)
+"vLs" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/machinery/porta_turret/syndicate{
+	faction = list("china")
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/caves)
 "vLu" = (
 /obj/structure/table{
 	layer = 2.9
@@ -46396,7 +46404,7 @@ vPg
 vPg
 uPr
 agq
-cLR
+vLs
 vPg
 eLE
 vPg
@@ -72341,8 +72349,8 @@ gey
 ihM
 gey
 ihM
-xEd
-xEd
+fdH
+cLR
 xEd
 iVM
 sZq
