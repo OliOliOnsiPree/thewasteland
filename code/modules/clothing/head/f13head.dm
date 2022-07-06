@@ -665,10 +665,6 @@
 	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 10, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 0)
 	flags_inv = HIDEEARS|HIDEHAIR
 
-/obj/item/clothing/head/helmet/f13/brahmincowboyhat/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
-
 /obj/item/clothing/head/helmet/f13/rustedcowboyhat
 	name = "Rusted Cowboy Hat"
 	desc = "A hat made from tanned leather hide."
@@ -677,10 +673,6 @@
 	flags_inv = HIDEEARS|HIDEHAIR
 	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "energy" = 10, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 0)
 	flags_inv = HIDEEARS|HIDEHAIR
-
-/obj/item/clothing/head/helmet/f13/rustedcowboyhat/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
 
 /obj/item/clothing/head/f13/police
 	name = "police hat"
@@ -893,6 +885,16 @@
 	item_state = "bone_dancer_helmet"
 	strip_delay = 100
 
+/obj/item/clothing/head/helmet/f13/combat/riottribal
+	name = "tribal riot helmet"
+	icon_state = "ranger_tribal"
+	desc = "An old riot police helmet, parts of the helmet have been removed and is now covered in tribal paints."
+	armor = list("melee" = 55, "bullet" = 55, "laser" = 45, "energy" = 30, "bomb" = 45, "bio" = 55, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 45)
+	flags_inv = HIDEMASK|HIDEEARS|HIDEFACIALHAIR|HIDEFACE
+	flags_cover = HEADCOVERSMOUTH
+	resistance_flags = LAVA_PROOF | FIRE_PROOF
+	dynamic_hair_suffix = ""
+	dynamic_fhair_suffix = ""
 /// Midwestern Event stuff
 
 /obj/item/clothing/head/helmet/midwesternhelmet

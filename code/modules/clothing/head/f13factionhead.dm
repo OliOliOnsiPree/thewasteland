@@ -1042,7 +1042,7 @@
 	desc = " A Khan helmet modified with steel horns and a full guard comprised of red sunglass lenses and a thick metal plate to conceal the lower face."
 	icon_state = "khan_fullhelmet"
 	item_state = "khan_fullhelmet"
-	armor = list("melee" = 40, "bullet" = 30, "laser" = 30, "energy" = 25, "bomb" = 35, "bio" = 10, "rad" = 10, "fire" = 10, "acid" = 0, "wound" = 40)
+	armor = list("melee" = 40, "bullet" = 30, "laser" = 20, "energy" = 25, "bomb" = 35, "bio" = 10, "rad" = 10, "fire" = 10, "acid" = 0, "wound" = 40)
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
 	strip_delay = 20
@@ -1113,6 +1113,13 @@
 
 /obj/item/clothing/head/helmet/f13/wayfarer/chief/attack_self(mob/user)
 	weldingvisortoggle(user)
+
+/obj/item/clothing/head/f13/stalkerpeltreinforced
+	name = "reinforced nightstalker pelt"
+	icon_state = "stalkerpelt"
+	item_state = "stalkerpelt"
+	desc = "A hat made from nightstalker pelt which makes the wearer feel both comfortable and elegant, its been reinforced."
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 25, "energy" = 30, "bomb" = 15, "bio" = 35, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 45)
 
 /obj/item/clothing/head/helmet/f13/wayfarer/chief/red
 	name = "helm of the piercing gaze"
